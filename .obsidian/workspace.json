@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "be42120619adef94",
+    "type": "split",
+    "children": [
+      {
+        "id": "14ac54e808f818b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62a97c57a995c42f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "909c05cba10ec441",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c1eb39daa4d8621",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eca6990de2c7a8b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e7c55cd656c088b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "574c26073bdb8f4f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1748393ed1a217b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "efaa533616659068",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfbea3812612f3b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "896866bec57cdf9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8794557c49d70d53",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44dc5b4259a31b19",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "62a97c57a995c42f",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Cryptography.md",
+    "Block Ciphers/SPN.md",
+    "Hash functions/Hash properties.md",
+    "HMAC.md",
+    "MAC.md",
+    "Hash functions/SHA-2.md",
+    "Block Ciphers/Linear and Differential Cryptanalysis.md",
+    "Hash functions",
+    "Hash functions/SHA-3.md",
+    "Hash functions/Merkle-Damgård.md",
+    "**Merkle-Dae [[Merkle-Damgard.md",
+    "Block Ciphers/AES.md",
+    "Block Ciphers/Modes of Operation.md",
+    "Classical Ciphers.md",
+    "2023-05-21.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Types of attacks.md",
+    "CFB.md",
+    "Modes of operation/ECB.md",
+    "Block Ciphers",
+    "Modes of operation",
+    "Block Ciphers/DES.md",
+    "known plaintext attacks.md"
+  ]
+}
