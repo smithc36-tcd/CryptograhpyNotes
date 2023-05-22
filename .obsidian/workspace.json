@@ -11,8 +11,12 @@
             "id": "62a97c57a995c42f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Elementary Number Theory.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Elementary Number Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Elementary Number Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,11 +124,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Elementary Number Theory.md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -139,8 +147,11 @@
   },
   "active": "62a97c57a995c42f",
   "lastOpenFiles": [
-    "Untitled.md",
     "Cryptography.md",
+    "Elementary Number Theory.md",
+    "Information Theory.md",
+    "Types of attacks.md",
+    "Untitled.md",
     "Block Ciphers/SPN.md",
     "Hash functions/Hash properties.md",
     "HMAC.md",
@@ -157,7 +168,6 @@
     "2023-05-21.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Types of attacks.md",
     "CFB.md",
     "Modes of operation/ECB.md",
     "Block Ciphers",
