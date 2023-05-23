@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elementary Number Theory.md",
+                "file": "Cryptography.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "6423cb99f41d5d0e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elementary Number Theory.md",
+                "file": "Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elementary Number Theory.md",
+                "file": "Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elementary Number Theory.md"
+                "file": "Cryptography.md"
               }
             }
           }
@@ -147,32 +155,39 @@
   },
   "active": "62a97c57a995c42f",
   "lastOpenFiles": [
+    "Symetric-key.md",
     "Cryptography.md",
-    "Elementary Number Theory.md",
-    "Information Theory.md",
-    "Types of attacks.md",
-    "Untitled.md",
+    "Public Key/ElGamal.md",
+    "Public Key/Diffie-Hellman Key.md",
+    "public-key.md",
+    "Hash functions.md",
+    "Background/Elementary Number Theory.md",
+    "Background/Classical Ciphers.md",
+    "Public Key/RSA.md",
+    "Public Key/Rabin.md",
+    "Public Key/Elliptic Curves.md",
+    "MAC/HMAC.md",
+    "MAC/MAC.md",
+    "Block Ciphers/Lin & Dif Cryptanalysis.md",
+    "Background/Types of attacks.md",
+    "Background/Information Theory.md",
     "Block Ciphers/SPN.md",
-    "Hash functions/Hash properties.md",
-    "HMAC.md",
-    "MAC.md",
-    "Hash functions/SHA-2.md",
-    "Block Ciphers/Linear and Differential Cryptanalysis.md",
-    "Hash functions",
-    "Hash functions/SHA-3.md",
-    "Hash functions/Merkle-Damgård.md",
-    "**Merkle-Dae [[Merkle-Damgard.md",
-    "Block Ciphers/AES.md",
     "Block Ciphers/Modes of Operation.md",
-    "Classical Ciphers.md",
-    "2023-05-21.md",
+    "Block Ciphers/DES.md",
+    "Block Ciphers/AES.md",
+    "Signature scheme.md",
+    "Hash functions/Merkle-Damgård.md",
+    "MAC",
+    "Background",
+    "Public Key",
+    "Public Key/DL algorithms.md",
+    "Untitled.md",
+    "Hash functions/Hash properties.md",
+    "Hash functions/SHA-2.md",
+    "Hash functions",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "CFB.md",
-    "Modes of operation/ECB.md",
     "Block Ciphers",
-    "Modes of operation",
-    "Block Ciphers/DES.md",
-    "known plaintext attacks.md"
+    "Modes of operation"
   ]
 }

@@ -28,8 +28,23 @@ This algorithm is particularly useful in modular arithmetic and cryptography, be
 #### Chinese Remainder Theorem
 The Chinese Remainder Theorem is a result in number theory that gives a solution to simultaneous linear congruences. If you have several numbers which leave different remainders when divided by several different divisors, and if these divisors are pairwise coprime (the GCD of each pair is 1), then there is a unique solution to this system of simultaneous congruences modulo the product of these divisors.
 
+**Theorem:** Let $\{n_1, ..., n_k\}$ be positive pairwise coprime integers and let $a_1, ..., a_k$ be integers. Then the equation system 
+
+$$
+\begin{align*}
+x &= a_1\ mod\ n_1 \\
+x &= a_2\ mod\ n_2 \\
+x &= a_3\ mod\ n_3 \\
+\quad\ \vdots \\
+x &= a_k\ mod\ n_k \\
+\end{align*}
+$$
+has a unique solution in $\{ 0, ..., \Pi_i(n_{i-1})\}$ . 
+
 #### Lagrange's Theorem
 In the field of group theory, Lagrange's theorem states that for any finite group G, the order (number of elements) of every subgroup H of G divides the order of G. This is a fundamental result in algebra and it has numerous applications, including the theory of polynomial equations.
+
+**Theorem:** If $H$ is a subgroup of a finite group $G$, then $|H|$ divides $|G|$ .
 
 #### Eulers Totient Function
 In number theory, Euler's totient function counts the positive integers up to a given integer n that are relatively prime to n. In other words, φ(n) is the number of integers k in the range 1 ≤ k ≤ n for which the greatest common divisor gcd(n, k) is equal to 1.
@@ -45,3 +60,41 @@ Euler's theorem is a generalization of Fermat's Little Theorem. It states that i
 $$
 a^{(\phi(n))} ≡ 1 \quad (mod\ n)
 $$
+
+#### Prime Number Theorem
+**Theorem:** Let $\pi(m)$ denote the number of primes $0 < p \leq m$, then
+$$
+\lim_{m \to \infty} \dfrac{\pi(m)}{\tfrac{m}{\ln(m)}} = 1
+$$
+
+#### Legendre Symbol 
+Legendre symbol is a mathematical function that gives information about whether a number is a quadratic residue modulo a prime. In simpler terms, it tells us if a given number has a square root modulo a prime number.
+
+Given an integer a and an odd prime number p, the Legendre symbol (a/p) is defined as follows:
+
+1. (a/p) = 0 if a is a multiple of p.
+2. (a/p) = 1 if a is not a multiple of p and there exists an integer x such that x^2 ≡ a (mod p). In other words, if a has a square root modulo p (i.e., a is a quadratic residue modulo p).
+3. (a/p) = -1 if a is not a multiple of p and there does not exist such an integer x. That is, if a is a quadratic non-residue modulo p.
+
+To calculate the Legendre symbol, we typically use properties of the symbol, including its multiplicativity and periodicity, and Euler's Criterion, which provides a formula for the Legendre symbol in terms of exponentiation modulo p.
+
+The Legendre symbol is used in many areas of number theory, including the law of quadratic reciprocity, which provides a formula for the product of the Legendre symbols (a/p) and (p/a).
+
+It's important to note that the Legendre symbol (a/p) is only defined when p is a prime number. For general odd integers, we use the Jacobi symbol instead, which is a generalization of the Legendre symbol.
+
+#### Jacobi Symbol 
+The Jacobi symbol is an extension of the Legendre symbol, which is defined for all positive odd integers, not just for prime numbers. The Jacobi symbol is denoted as (a/n) where a is an integer and n is a positive odd integer.
+
+When n is a prime number, the Jacobi symbol and the Legendre symbol are the same. However, when n is a composite number, the Jacobi symbol can be defined, while the Legendre symbol cannot.
+
+The Jacobi symbol (a/n) is defined as the product of the Legendre symbols for each of the prime factors of n.
+
+In other words, if n is factored into primes as $n = p_1^{e_1} * p_2^{e_2} * ... * p_k^{e_k}$, then the Jacobi symbol is given by:
+$$
+(\frac{a}{n}) = (\frac{1}{p1})^{e_1} * (\frac{a}{p2})^{e_2} * ... * (\frac{a}{pk})^{e_k}
+$$
+Each term (a/pi)^ei is a Legendre symbol and can be evaluated as described in the previous response.
+
+It's important to remember that while the Legendre symbol gives meaningful information about whether a number is a quadratic residue modulo a prime (that is, whether it has a square root), the Jacobi symbol does not necessarily provide this information when n is composite. For example, (a/n) = 1 does not guarantee that a has a square root modulo n.
+
+The Jacobi symbol is used in many areas of number theory, including algorithms for primality testing and integer factorization. For example, the Solovay-Strassen primality test uses the Jacobi symbol to probabilistically determine whether a number is prime or composite.
