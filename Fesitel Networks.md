@@ -36,7 +36,7 @@ $$
 The decryption of a given round is given as, 
 $$
 \begin{align*}
-L_{i-1} &= R_i + F_{k_i}(L_{i-1}) \\ 
+L_{i-1} &= R_i + F_{k_i}(L_{i}) \\ 
 R_{i-1} &= L_i
 \end{align*}
 $$
