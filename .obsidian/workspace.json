@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 233.50260543823242
   },
   "right": {
     "id": "1748393ed1a217b6",
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,27 +156,29 @@
   },
   "active": "62a97c57a995c42f",
   "lastOpenFiles": [
-    "Symetric-key.md",
-    "Cryptography.md",
-    "Public Key/ElGamal.md",
-    "Public Key/Diffie-Hellman Key.md",
     "public-key.md",
+    "Cryptography.md",
+    "Symetric-key.md",
+    "Block Ciphers/SPN.md",
+    "Block Ciphers/DES.md",
+    "Block Ciphers/Modes of Operation.md",
+    "Schnorr's Protocol.md",
+    "Signature scheme.md",
+    "Untitled.canvas",
+    "Background/Number Theory.md",
+    "MAC/HMAC.md",
+    "Public Key/Diffie-Hellman Key.md",
+    "Public Key/ElGamal.md",
     "Hash functions.md",
-    "Background/Elementary Number Theory.md",
     "Background/Classical Ciphers.md",
     "Public Key/RSA.md",
     "Public Key/Rabin.md",
     "Public Key/Elliptic Curves.md",
-    "MAC/HMAC.md",
     "MAC/MAC.md",
     "Block Ciphers/Lin & Dif Cryptanalysis.md",
     "Background/Types of attacks.md",
     "Background/Information Theory.md",
-    "Block Ciphers/SPN.md",
-    "Block Ciphers/Modes of Operation.md",
-    "Block Ciphers/DES.md",
     "Block Ciphers/AES.md",
-    "Signature scheme.md",
     "Hash functions/Merkle-Damgård.md",
     "MAC",
     "Background",
@@ -183,9 +186,7 @@
     "Public Key/DL algorithms.md",
     "Untitled.md",
     "Hash functions/Hash properties.md",
-    "Hash functions/SHA-2.md",
     "Hash functions",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "Block Ciphers",
     "Modes of operation"

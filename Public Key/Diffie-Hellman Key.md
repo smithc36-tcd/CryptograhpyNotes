@@ -13,6 +13,6 @@ Two public parameters are agreed upon at the start:
 ## Security
 The security of the Diffie-Hellman key exchange comes from the difficulty of the Discrete Logarithm Problem. While it's easy to compute A = g^a mod p, it's computationally infeasible to compute the inverse operation (given A, g and p, find a).
 
-The exchanged keys can then be used as a symmetric key for further secure communication, for example using the [[AES]] encryption algorithm.
+The exchanged keys can then be used as a symmetric key for further secure communication, for example using the AES encryption algorithm.
 
 Note that while the Diffie-Hellman Key Exchange is secure against eavesdroppers, it does not protect against man-in-the-middle attacks. This is where an attacker intercepts the communication and establishes separate shared keys with Alice and Bob. This problem can be mitigated by using the protocol in conjunction with a public key digital signature system, or by using the variant called Ephemeral Diffie-Hellman which involves public key infrastructure for authentication.

@@ -36,10 +36,39 @@ Elliptic curves are a type of mathematical object defined by a specific type of 
 A digital [[Signature scheme]] is the **public-key** equivalent of a MAC. The reciever verifies the integrity and authenticity of the message. 
 
 ### Based on Trapdoor One-way Permutations
-TO DO 
+Let $f = \{f_\alpha\}$ be ensemble of permutations (bijections). 
+- Gen generates a random key-pair $\alpha = (pk, sk)$
+- Eval takes $pk$ adn $x$ as input and efficiently evaluates $f_\alpha(x)$
+- Invert takes $sk$ and $y$ as input an efficiently evaluates the inverse $f_\alpha^{-1}(y)$
+
+**One-way** if Eval$_{pk}(\cdot)$ is one-way for a random $pk$. 
 
 ### Based on proofs of knowledge
-TO DO 
+Proof of knowledge of exponent is a type of interactive proof system where a prover demonstrates to a verifier that they know a value for a particular mathematical relationship without revealing that value. Also known as Zero-knowledge proofs. 
 
-### PKI's 
-TO DO 
+Zero-knowledge proofs are a type of cryptographic protocol in which one party (the prover) can prove to another party (the verifier) that they know a value or that a certain statement is true, without conveying any other information apart from the fact that they indeed know the value or the statement is true.
+
+There are several properties a zero-knowledge proof must satisfy:
+
+1.  Completeness: If the statement is true and both the prover and verifier follow the protocol correctly, the verifier is convinced of this fact by the end of the protocol.
+
+2.  Soundness: If the statement is false, no cheating prover can convince the verifier that it is true, except with some small probability.
+
+3.  Zero-Knowledge: If the statement is true, the verifier learns nothing other than this fact. This is usually formalized by showing that every verifier has some simulator that, given only the statement to be proved (and no access to the prover), can produce a transcript that looks just like an interaction between the honest prover and the verifier.
+
+[[Schnorr's Protocol]] is one such proof. 
+
+### PKI's (Public-key infrastructure)
+
+#### Signing public-keys of others
+Suppose that Alice computes  signature $\sigma_{A,B} = \text{Sig}_{sk_A}(pk_B, BOB)$ of Bobs public key $pk_B$ and his identity and hands it to Bob. Suppsose that Eve holds Alices public-key $pk_A$. Then anyone can hand $(pk_B, \sigma_{A,B})$ directly to Eve and Eve will be convinced that $pk_B$ is Bob's key (Assuming she trusts alice). 
+
+#### Certificates
+A **certificate** is a signature of a public-key along with some information on how the key may be used e.g. it may allow the holder to issue certificates. A certificate is valid for a given setting if the signature is valid and the usage information in the certificate matches that of the setting. Some parties must be trusted to issue certificates. These parties are called **Certificate Authorities (CA).**
+
+#### Certificate chains
+A CA may be "distributed" using certificate chains. 
+- Suppose that Bob holds valid certificates $$
+\sigma_{0,1}, \sigma_{1,2}, ..., \sigma_{n-1, n}
+$$ 
+where $\sigma_{i-1, i}$ is a certificate of $pk_{P_i}$ by $P_{i-1}$. 
