@@ -7,6 +7,8 @@ The Euclidean Algorithm is an efficient method for computing the greatest common
 
 The algorithm is based on the principle that the GCD of two numbers a and b (where a > b) is equal to the GCD of b and a mod b. This process is repeated, reducing the problem to a pair of smaller numbers each time, until it reaches a pair where the smaller number is 0. The GCD is the remaining non-zero number.
 
+---
+
 #### Stein's Algorithm (Binary GCD)
 Stein's Algorithm, also known as the binary GCD algorithm, is an algorithm that computes the GCD of two integers. Stein's algorithm uses simpler arithmetic operations than the conventional Euclidean algorithm; it replaces division with arithmetic shifts, comparisons, and subtraction.
 
@@ -17,13 +19,19 @@ The binary GCD algorithm is based on the following facts:
 -   If both are odd, and u ≥ v, then gcd(u, v) = gcd((u - v)/2, v),
 -   If both are odd and u < v, then gcd(u, v) = gcd((v - u)/2, u).
 
+---
+
 #### Bezout's Lemma
 Bezout's Lemma (also known as Bezout's Identity) states that if a and b are integers with greatest common divisor d, then there exist integers x and y such that ax + by = d. Moreover, d is the smallest positive integer that can be written in this form.
+
+---
 
 #### The Extended Euclidean Algorithm 
 The Extended Euclidean Algorithm is a version of the Euclidean Algorithm that also finds the coefficients of Bezout's identity (those integers x and y).
 
 This algorithm is particularly useful in modular arithmetic and cryptography, because one of the coefficients (which can be calculated efficiently using the Extended Euclidean Algorithm) is the modular multiplicative inverse of a given number modulo another number. That is, given numbers a and m, the algorithm finds number x such that (ax) mod m = 1.
+
+---
 
 #### Chinese Remainder Theorem
 The Chinese Remainder Theorem is a result in number theory that gives a solution to simultaneous linear congruences. If you have several numbers which leave different remainders when divided by several different divisors, and if these divisors are pairwise coprime (the GCD of each pair is 1), then there is a unique solution to this system of simultaneous congruences modulo the product of these divisors.
@@ -41,15 +49,21 @@ x &= a_k\ mod\ n_k \\
 $$
 has a unique solution in $\{ 0, ..., \Pi_i(n_{i-1})\}$ . 
 
+---
+
 #### Lagrange's Theorem
 In the field of group theory, Lagrange's theorem states that for any finite group G, the order (number of elements) of every subgroup H of G divides the order of G. This is a fundamental result in algebra and it has numerous applications, including the theory of polynomial equations.
 
 **Theorem:** If $H$ is a subgroup of a finite group $G$, then $|H|$ divides $|G|$ .
 
+---
+
 #### Eulers Totient Function
 In number theory, Euler's totient function counts the positive integers up to a given integer n that are relatively prime to n. In other words, φ(n) is the number of integers k in the range 1 ≤ k ≤ n for which the greatest common divisor gcd(n, k) is equal to 1.
 
 For example, φ(9) = 6 because there are six numbers relatively prime to 9 in the range from 1 to 9: 1, 2, 4, 5, 7 and 8.
+
+---
 
 #### Fermat's little theorem and Eulers Theorem
 Fermat's Little Theorem states that if p is a prime number, then for any integer a, the number ap − a is an integer multiple of p. In the notation of modular arithmetic, this is expressed as:
@@ -61,11 +75,15 @@ $$
 a^{(\phi(n))} ≡ 1 \quad (mod\ n)
 $$
 
+---
+
 #### Prime Number Theorem
 **Theorem:** Let $\pi(m)$ denote the number of primes $0 < p \leq m$, then
 $$
 \lim_{m \to \infty} \dfrac{\pi(m)}{\tfrac{m}{\ln(m)}} = 1
 $$
+
+---
 
 #### Legendre Symbol 
 Legendre symbol is a mathematical function that gives information about whether a number is a quadratic residue modulo a prime. In simpler terms, it tells us if a given number has a square root modulo a prime number.
@@ -82,6 +100,7 @@ The Legendre symbol is used in many areas of number theory, including the law of
 
 It's important to note that the Legendre symbol (a/p) is only defined when p is a prime number. For general odd integers, we use the Jacobi symbol instead, which is a generalization of the Legendre symbol.
 
+---
 #### Jacobi Symbol 
 The Jacobi symbol is an extension of the Legendre symbol, which is defined for all positive odd integers, not just for prime numbers. The Jacobi symbol is denoted as (a/n) where a is an integer and n is a positive odd integer.
 

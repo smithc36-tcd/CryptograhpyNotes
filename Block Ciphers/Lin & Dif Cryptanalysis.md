@@ -26,7 +26,7 @@ The attacker then uses this table to find a linear approximation of the entire c
 
 Linear cryptanalysis requires a deep understanding of the cipher's structure and a large number of plaintext-ciphertext pairs. It has been used successfully to attack several widely used ciphers, but most modern ciphers are designed to be resistant to this type of attack.
 
-
+---
 
 ## Differential
 

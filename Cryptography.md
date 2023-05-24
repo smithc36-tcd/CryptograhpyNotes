@@ -11,7 +11,7 @@ The main drawback of symmetric key cryptography is the key distribution problem.
 ---
 
 # Hash Functions
-A [[Hash functions]] is a deterministic process that takes an input (or 'message') and returns a fixed-size string of bytes. The output, often a 'digest', is ideally unique to each unique input. Hash functions have specific [[Hash properties]]. 
+A [[Hash functions]] is a deterministic process that takes an input (or 'message') and returns a fixed-size string of bytes. The output, often a 'digest', is ideally unique to each unique input. 
 
 ---
 
@@ -43,7 +43,4 @@ such that $D_{sk}(E_{pk}(m)) = m$ for every $(pk, sk)$ and $m \in \mathbb{M}$.
 **Definition:** An efficient algorithm [[PRG]] is a **Pseudo-random generator (PRG)** if there exists a polynomial $p(n) > n$ such that for every polynomial time adversary $A$, if a seed $s \in \{0,1\}^n$ and a random string $u \in \{0,1\}^{p(n)}$ are chosen randomly, then 
 $$
 |\Pr[A(PRG(s)) = 1] - \Pr[A(u) = 1]|
-$$ is negligible. Informally $A$ cannot distinguish PRG(s) from a truly random string in $\{0,1\}^{p(n)}$.\
-
-Hello git
-hello git two
+$$ is negligible. Informally $A$ cannot distinguish PRG(s) from a truly random string in $\{0,1\}^{p(n)}$.

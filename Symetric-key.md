@@ -19,6 +19,8 @@ Common examples of block ciphers include [[AES]] (Advanced Encryption Standard) 
 ### Modes of Operation
 In cryptography, the term "[[Modes of Operation]]" refers to the ways in which a block cipher (a type of encryption algorithm that operates on fixed-size blocks of data) can be used. Each mode has different properties and is suitable for different types of tasks. 
 
+---
+
 ### Cryptanalysis
 Cryptanalysis is the study of analyzing and breaking cryptographic systems with the intention of decoding encrypted messages without having access to the key used in the encryption process. The goal of cryptanalysis is to find weaknesses in cryptographic algorithms and exploit them to breach the security of a system.
 
