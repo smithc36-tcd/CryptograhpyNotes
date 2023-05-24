@@ -23,11 +23,16 @@
             "id": "6423cb99f41d5d0e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Symmetric-key.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BSGS.md",
+                "file": "Symmetric-key.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BSGS.md",
+                "file": "Symmetric-key.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BSGS.md"
+                "file": "Symmetric-key.md"
               }
             }
           }
@@ -154,19 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "239b03bbee2a2c0d",
+  "active": "6423cb99f41d5d0e",
   "lastOpenFiles": [
+    "BSGS.md",
     "Public Key/DL algorithms.md",
     "Pollard-P.md",
     "Index Calculus.md",
     "Pohlig-Hellman.md",
-    "BSGS.md",
     "public-key.md",
     "Cryptography.md",
     "GS-BS.md",
     "Hash functions.md",
     "Hash functions/Merkle-Damgård.md",
-    "Symetric-key.md",
+    "Symmetric-key.md",
     "Block Ciphers/DES.md",
     "Block Ciphers/AES.md",
     "Fesitel Networks.md",

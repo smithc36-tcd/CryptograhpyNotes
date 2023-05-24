@@ -4,7 +4,7 @@ There is some background assumed for the course. There is some [[Information The
 ---
 
 # Symmetric-key Cryptography
-In [[Symetric-key]], the sender and receiver must both have access to the same secret key, and this key must be securely exchanged and kept secret from all other parties. The security of symmetric key cryptography relies heavily on the secrecy of the key because anyone with access to this key can decrypt the encrypted data.
+In [[Symmetric-key]], the sender and receiver must both have access to the same secret key, and this key must be securely exchanged and kept secret from all other parties. The security of symmetric key cryptography relies heavily on the secrecy of the key because anyone with access to this key can decrypt the encrypted data.
 
 The main drawback of symmetric key cryptography is the key distribution problem. Because the same key is used for both encryption and decryption, it must be shared somehow between the sender and the receiver. In a large network, distributing secret keys in a secure manner can be challenging and potentially vulnerable to interception. This issue is typically addressed by using asymmetric key cryptography for secure key exchange, then symmetric key cryptography for the actual data encryption.
 
