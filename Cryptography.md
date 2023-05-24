@@ -46,3 +46,4 @@ $$
 $$ is negligible. Informally $A$ cannot distinguish PRG(s) from a truly random string in $\{0,1\}^{p(n)}$.\
 
 Hello git
+hello git two
