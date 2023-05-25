@@ -13,26 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BSGS.md",
+                "file": "Hash functions/Hash properties.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6423cb99f41d5d0e",
+            "id": "957d8a9354ad33a8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fesitel Networks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 233.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "1748393ed1a217b6",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fesitel Networks.md",
+                "file": "Hash functions/Hash properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fesitel Networks.md",
+                "file": "Hash functions/Hash properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fesitel Networks.md"
+                "file": "Hash functions/Hash properties.md"
               }
             }
           }
@@ -159,35 +155,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6423cb99f41d5d0e",
+  "active": "239b03bbee2a2c0d",
   "lastOpenFiles": [
-    "Symmetric-key.md",
-    "BSGS.md",
-    "Public Key/DL algorithms.md",
-    "Pollard-P.md",
-    "Index Calculus.md",
-    "Pohlig-Hellman.md",
-    "public-key.md",
-    "Cryptography.md",
-    "GS-BS.md",
+    "Hash functions/Hash properties.md",
     "Hash functions.md",
+    "Cryptography.md",
+    "public-key.md",
+    "Public Key/DL algorithms.md",
+    "DL Algorithms/BSGS.md",
+    "SKINNY.md",
+    "HomeWork.md",
+    "Pasted image 20230525145823.png",
+    "Background/Types of attacks.md",
+    "Background/Number Theory.md",
+    "DL Algorithms/Pohlig-Hellman.md",
+    "DL Algorithms/Pollard-P.md",
+    "DL Algorithms",
+    "Fesitel Networks.md",
+    "Symmetric-key.md",
+    "DL Algorithms/Index Calculus.md",
+    "GS-BS.md",
     "Hash functions/Merkle-Damgård.md",
     "Block Ciphers/DES.md",
     "Block Ciphers/AES.md",
-    "Fesitel Networks.md",
     "Background/Classical Ciphers.md",
     "Block Ciphers/SPN.md",
     "Block Ciphers/Lin & Dif Cryptanalysis.md",
-    "Background/Types of attacks.md",
-    "Background/Number Theory.md",
     "PRG.md",
     "Block Ciphers/Modes of Operation.md",
     "Schnorr's Protocol.md",
     "Signature scheme.md",
     "Untitled.canvas",
-    "MAC/HMAC.md",
-    "Public Key/Diffie-Hellman Key.md",
-    "Public Key/ElGamal.md",
     "MAC",
     "Background",
     "Public Key",

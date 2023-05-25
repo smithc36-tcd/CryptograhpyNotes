@@ -44,3 +44,9 @@ such that $D_{sk}(E_{pk}(m)) = m$ for every $(pk, sk)$ and $m \in \mathbb{M}$.
 $$
 |\Pr[A(PRG(s)) = 1] - \Pr[A(u) = 1]|
 $$ is negligible. Informally $A$ cannot distinguish PRG(s) from a truly random string in $\{0,1\}^{p(n)}$.
+
+
+
+---
+## Homeworko
+[[SKINNY]]
